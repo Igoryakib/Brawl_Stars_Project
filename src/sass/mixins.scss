@@ -1,0 +1,11 @@
+@import './colors.scss';
+@import './fonts.scss';
+
+@mixin btn_headerFooter ($backc, $paddingHeig: 18px, $paddingWid: 45px) {
+    background-color: $backc;
+    color: $white_text;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: $paddingHeig, $paddingWid;
+
+}
