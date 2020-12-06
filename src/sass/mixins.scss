@@ -9,3 +9,12 @@
     padding: $paddingHeig, $paddingWid;
 
 }
+
+@mixin line_title ($color) {
+    background-color: $color;
+    width: 60pt;
+    height: 1pt;
+    content: '';
+    display: block;
+    margin-top: 15px;
+} 
