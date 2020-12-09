@@ -1,0 +1,196 @@
+
+@import './colors.scss';
+@import './fonts.scss';
+
+
+.section3team{
+    width: 320px;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0 auto;
+}
+
+.h2_our_team_section3{
+    margin: 0 0 0 0 ;
+    text-transform: uppercase;
+    font-family: 'Texturina', serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: $darkBlue_text;
+
+}
+
+.line_befote_title{
+    background-color: $gray_text;
+    width: 60px;
+    height: 1pt;
+    content: '';
+    display: block;
+    margin-top: 11px;
+}
+
+
+.line_after_title{
+    background-color: $gray_text;
+    width: 60px;
+    height: 1pt;
+    content: '';
+    display: block;
+    margin-top: 11px;
+}
+
+.wrapper_title_ourteam{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+    text-align: center;
+}
+
+
+.h3_under_h2p_text{
+    color: $gray_text;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 38px;
+    line-height: 1.5;
+    margin-bottom: 38px;
+    text-align: center
+}
+
+
+
+
+
+
+
+
+.wrapper_people_card_section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.people_cardsection3 {
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.card_people_shadow {
+    position: relative;
+    
+}
+
+.photo_people {
+    width:270px;
+    height: 300px;
+
+}
+
+
+.wrapper_icons_social_network {
+    // width: 270px;
+    // height: 300px;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // transition: 200ms linear;
+}
+
+.card_people_shadow:hover > .gradiend {
+    background: linear-gradient(rgba(129, 192, 243, 0.733), rgba(184, 96, 243, 0.726));
+   
+    
+}
+
+.about_people_section3{
+    position: absolute;
+    color: $white_text;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;  
+    line-height: 1.5;
+    display: none;
+    margin: 0 0 0 0;
+    padding: 22px 0 0 30px;
+    
+}
+
+.gradiend {
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   transition: 200ms linear;
+}
+
+.gradiend:hover .about_people_section3{
+    display: block;
+}
+
+.social_program {
+    display: none;
+    font-size: 0;
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+}
+
+
+.card_people_shadow:hover .social_program {
+    display: block;
+}
+
+.social_link {
+    width: 42px;
+    height: 42px;
+    background-color: $purple;
+    display: inline-block;
+    position: relative;
+    margin-right: 4px;
+    transition: 0.4s linear;
+}
+
+ .social_link:last-child {
+    margin-right: 0;
+} 
+
+.social_link:hover {
+    background-color: $violet;
+}
+
+.link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+.name_people_section3{
+    font-size: 18px;
+    color: $darkBlue_text;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 14px;
+}
+
+.text_under_name_people{
+    color: $gray_text;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
