@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 36" width="30" height="36">
+	<defs>
+		<image width="30" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAkCAMAAACpD3pbAAAAAXNSR0IB2cksfwAAAK5QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////zYsj6wAAADp0Uk5TAGDkICTnVyHjHBpSdHEZHerfsv3//K2nn5OQVmcK7YD5FWzAwuJ/fifseyjYWVjZ/ibD63181dYpKtvegm8AAADjSURBVHic5ZLbTgJBDIaLsLqyIIIVRMWie2JRYQ/i4f1fzGZms6GdSbzyiu+imcyXTNq/A2DpnfWhYxCcg+QiCC9hGI3G0RXbcKI0DK6nsxtkbudB2NcWYIEdd65d4hH32j6g4FHa1RMigVVAiOtnoV/4OiarKeYyEjpBRSJ0qnUqdEaK3J3NxyYptgD6be4ftkXyCm98fPfpHZe9EZlPZ6aaSX2aTlqXXHKfzrmUf2Ve1c2Hf2OHpq7atX5q+yW2/k2mk5jMP0SiH/0v7Ahtwy7/qm0+bRouNp82DRebj0gD4BcQmjyUxYs+vAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Video">
+		<g id="text">
+			<g id="Group 4">
+				<g id="icon android">
+					<use id="icon android" href="#img1" x="0" y="0" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
