@@ -8,7 +8,7 @@
 .section2_wrapper{
 text-align: center;
 justify-content: center;
-background-color: #31d3e7;
+background-color: $cyan_text;
 
 
 @media screen and  ( min-width: 1200px) {
@@ -77,13 +77,13 @@ margin: 0 auto 41px ;
 }
 .section2_wrapper_icons_wrapper_apple{
     border-radius: 50%;
-    background-color: #0098cd;
+    background-color: $whiteBlue_text;
 
 
 
 }
 .section2_wrapper_icons_wrapper_apple:hover {
-    background-color: #000;
+    background-color: $black_text;
     background-repeat: no-repeat;
 }
 .section2_wrapper_icons_applew{
@@ -96,12 +96,12 @@ margin: 0 auto 41px ;
 
 
 .section2_wrapper_icons_wrapper_robot{
-    background-color: #0098cd;
+    background-color: $whiteBlue_text;
     border-radius: 50%;
    
 }
 .section2_wrapper_icons_wrapper_robot:hover{
-  background-color: rgb(28, 87, 28);
+  background-color: $green-text;
 }
 
 .section2_wrapper_icons_robot {
