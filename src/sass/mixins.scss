@@ -10,11 +10,21 @@
 
 }
 
-@mixin line_title ($color) {
-    background-color: $color;
-    width: 60pt;
-    height: 1pt;
-    content: '';
-    display: block;
-    margin-top: 15px;
-} 
+
+@mixin btn_header ($bcg_color, $color, $padding: 12px 39px 12px 22px) {
+    background-color: $bcg_color;
+    padding: $padding;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: $color;
+    border-radius: 8px;
+    outline: none;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 5px;
+}
+
