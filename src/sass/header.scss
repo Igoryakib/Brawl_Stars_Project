@@ -72,11 +72,12 @@ li {
 .header_Brawl__wrapper__menu {
     position: relative;
     &:hover .header_Brawl__wrapper__menu__list {
-        left: -265px;
+        top: 100%;
+        opacity: 1;
     }
 
     &:hover .header_Brawl__wrapper__menu__btn {
-        transform: rotate(90deg);
+        transform: rotate(360deg);
     }
 
     @media screen and (min-width: 768px) {
@@ -90,7 +91,7 @@ li {
     font-size: 35px;
     background-color: transparent;
     color: $black_text;
-    transition: 0.4s linear;
+    transition: 0.8s linear;
 
     @media screen and (min-width: 768px) {
         display: none;
@@ -99,16 +100,18 @@ li {
 
 .header_Brawl__wrapper__menu__list {
     position: absolute;
-    left: 100px;
-    top: 100%;
-    transition: 0.4s linear;
+    top: 600px;
+    left: -265px;
+    transition: 0.8s linear;
     width: 305px;
     display: flex;
     justify-content: space-between;
+    opacity: 0;
 
     @media screen and (min-width: 768px) {
         position: static;
         width: 447px;
+        opacity: 1;
     }
 
     @media screen and (min-width: 1200px) {
