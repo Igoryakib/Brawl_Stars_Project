@@ -11,6 +11,7 @@
 }
 
 
+
 @mixin btn_header ($bcg_color, $color, $padding: 12px 39px 12px 22px) {
     background-color: $bcg_color;
     padding: $padding;
@@ -28,4 +29,5 @@
     border: none;
     margin-bottom: 5px;
 }
+
 
