@@ -79,7 +79,7 @@ margin: 0 auto 41px ;
 .section2_wrapper_icons_wrapper_apple{
     border-radius: 50%;
     background-color: $whiteBlue_text;
-
+     
 
 
 }
@@ -118,31 +118,31 @@ margin: 0 auto 41px ;
  
 
 
-.section2_wrapper_video {
+ .section2_wrapper_video {
     padding:0  1px ;
     border-radius: 8px;
     margin-bottom: 60px;
     width: 285px;
-
+    outline: none;
 @media screen and (min-width: 768px)  {
         margin-bottom: 107px;
      width: 500px;
 }
 
 @media screen and ( min-width: 1200px) {
-    width: 600px;
+    width: 570px;
     margin: 120px auto 120px;  
 }
 
 }
 
 
-
+.section2_wrapper_icons2{
 
 @media ( min-width: 1200px) {
     
-        .section2_wrapper_icons2 {
-          margin: 70px auto 90px 50px;
+         
+          margin: 70px auto 90px 30px;
           justify-content: left;
           text-align-last: left;
         
