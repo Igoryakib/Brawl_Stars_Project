@@ -308,14 +308,14 @@ li {
         display: block;
         width: 277px;
         height: 480px;
-        background-image: url(../images/phone_768.png);
+        // background-image: url(../images/phone_768.png);
         position: absolute;
         right: 0;
         top: 45px;
     }
 
     @media screen and (min-width: 1200px) {
-        background-image: url(../images/phone_1200.png);
+        // background-image: url(../images/phone_1200.png);
         width: 382px;
         height: 663px;
         top: -121px;
