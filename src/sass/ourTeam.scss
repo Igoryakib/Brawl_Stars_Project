@@ -1,15 +1,25 @@
-
 @import './colors.scss';
 @import './fonts.scss';
 
 
-.section3team{
-    // width: 320px;
+.section3team {
     padding: 1rem 1rem 0 1rem;
     margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        padding: 0 2rem 0 2rem;
+        margin: 105px auto;
+        text-align: center;   
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
-.h2_our_team_section3{
+.h2_our_team_section3 {
     margin: 0 0 0 0 ;
     text-transform: uppercase;
     font-family: 'Texturina', serif;
@@ -18,25 +28,43 @@
     text-align: center;
     color: $darkBlue_text;
 
+    @media screen and (min-width: 768px) {
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 28px;
+        letter-spacing: -1px;
+        font-weight: 700;
+        text-align: center;
+    }
 }
 
-.line_befote_title{
+.line_befote_title {
     background-color: $gray_text;
     width: 60px;
     height: 1pt;
     content: '';
     display: block;
     margin-top: 11px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 18px;
+    }
 }
 
-
-.line_after_title{
+.line_after_title {
     background-color: $gray_text;
     width: 60px;
     height: 1pt;
     content: '';
     display: block;
     margin-top: 11px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 18px;
+    }
 }
 
 .wrapper_title_ourteam{
@@ -45,8 +73,17 @@
     margin: 21px auto;
     text-align: center;
     width: 300px;
-}
 
+    @media screen and (min-width: 768px) {
+        width: 378px;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 94px;
+        margin-bottom: 68px;
+    }
+}
 
 .h3_under_h2p_text{
     color: $gray_text;
@@ -55,19 +92,48 @@
     margin: 38px auto;
     line-height: 1.5;
     margin-bottom: 38px;
-    text-align: center
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        width: 556px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 58px;
+        margin-bottom: 58px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 800px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        margin-top: 0px;
+        margin-bottom: 104px;
+    }
 }
-
-
-
-
-
 
 .people_cardsection3 {
     display: block;
     width: 270px;
     margin: 0 auto;
     margin-bottom: 85px;
+
+    @media screen and (min-width: 768px) {
+        margin: 0 auto;
+        text-align: center;
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 103px;
+        position: relative;
+    }    
+
+    @media screen and (min-width: 1200px) {
+        width: 1000px;
+    }
 }
 
 .card_people_shadow {
@@ -80,10 +146,6 @@
     height: 300px;
 
 }
-
-
-
-
 
 .about_people_section3{
     position: absolute;
@@ -108,15 +170,12 @@
 }
 
 .card_people_shadow:hover > .gradiend {
-    // background: linear-gradient(rgb(129, 192, 243), rgb(184, 96, 243));  
     transition: 200ms linear;
     opacity: 0.9;
 }
 
-
 .gradiend:hover .about_people_section3{
     display: block;
-    
 }
 
 .social_program {
@@ -127,16 +186,17 @@
     left: 75%;
     transform: translate(-50%, -50%);
     width: 270px;
-}
 
+    @media screen and (min-width: 768px) {
+        left: 50%;
+    } 
+}
 
 .card_people_shadow:hover .social_program {
     display: block;
-    
 }
 
 .social_link {
-    
     background-color: $purple;
     display: inline-block;
     position: relative;
@@ -151,8 +211,6 @@
 .social_link:hover {
     background-color: $violet;
 }
-
-
 
 .name_people_section3{
     font-size: 18px;
@@ -173,148 +231,29 @@
     margin-bottom: 50px;
 }
 
-
-
-
-
-
-
-
-
-///////////////////////// tablet ////////////////////////
-
-
-
-
-@media screen and (min-width: 768px){
-
-
-    .section3team {
-        // width: 60vw;
-        padding: 0 2rem 0 2rem;
-        margin: 105px auto;
-        text-align: center;   
-        
-     }
-
-     .h2_our_team_section3{
-        font-weight: 600;
-        font-size: 28px;
-     }  
-    
-     .wrapper_title_ourteam{
-        width: 378px;
-        margin: 0 auto;
-    }
-
-    .h3_wrapper_h2p_text_section3{
+.h3_wrapper_h2p_text_section3 {
+    @media screen and (min-width: 768px) {
         display: flex;
-        
-    }
-
-    .h3_under_h2p_text{
-        width: 556px;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 600;
-        text-align: center;
-        margin-top: 58px;
-        margin-bottom: 58px;
-    }
-    
-    .line_befote_title{  
-        margin-top: 18px;
-    }
-    
-    
-    .line_after_title{
-        margin-top: 18px;
-    }
-    
-    .people_cardsection3{
-        margin: 0 auto;
-        text-align: center;
-        width: 600px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-bottom: 103px;
-        position: relative;
-        
-    }
-
-
-    .social_program {
-        left: 50%;
-    }
-
-
-    .card_in_top_with_one_people{
-        position: absolute;
-        left: 27%;
-
     }
 }
 
-
-
-
-///////////////////////// desktop ////////////////////////
-
-
-
-
-
-@media screen and (min-width: 1200px) {
-
-    .section3team {
-        padding: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-    
-    .wrapper_title_ourteam{
-        margin-top: 94px;
-        margin-bottom: 68px;
-    }
-    
-
-    .h2_our_team_section3{
-        font-size: 28px;
-        letter-spacing: -1px;
-        font-weight: 700;
-        text-align: center;
-    
+.card_in_top_with_one_people {
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        left: 27%;
     }
 
-
-    .h3_under_h2p_text{
-        width: 800px;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 600;
-        margin-top: 0px;
-        margin-bottom: 104px;
+    @media screen and (min-width: 1200px) {
+        position: absolute;
+        left: 64%;
     }
+}
 
-
-    .people_cardsection3 {
-        width: 1000px;
-    }
-
-    
-    .wrapper_div_with_two_people{
+.wrapper_div_with_two_people {
+    @media screen and (min-width: 1200px) {
         display: flex;
         justify-content: space-between;
         width: 818px;
         margin: 0 auto;
     }
-
-    .card_in_top_with_one_people{
-        position: absolute;
-        left: 64%;
-
-    }
-    
 }
