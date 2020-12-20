@@ -9,3 +9,21 @@
     padding: $paddingHeig, $paddingWid;
 
 }
+
+@mixin title_line() {
+        background-color: $white_text;
+        width: 60px;
+        height: 1pt;
+        content: '';
+        display: block;
+        margin-top: 15px;
+
+}
+
+@mixin end_line() {
+    background-color: #6f6f6f;
+    width: 320px;
+    height: 0.3px;
+    content: '';
+    display: block;
+}
