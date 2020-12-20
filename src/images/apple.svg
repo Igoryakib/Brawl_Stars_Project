@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32" width="28" height="32">
+	<defs>
+		<image width="28" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAMAAAA2a+hwAAAAAXNSR0IB2cksfwAAAa1QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Onw20gAAAI90Uk5TAECc220Lk+T4/XEJA5/r/+1cAV/ptjoCyvvvaxIk9ZEnBD/+14YuBwgoTWIsKZt2YWNwbzgqZp7E1tmiV2l1u+fm0695N5Lfy7/o/KhIBfSsGofqnTvP7iOJszK9+hvSwC2wMzXY1cNMFdF6tTmXMdypU8XzDwaUSxDypUK5UogW+aEmIo/w9972NhTBeB7yUdibAAABd0lEQVR4nG3T+TsCURQG4EHKiLlFTIXIiIokQoulEDHKXkSyhcoW2ZcQ2f3Nmhs9mHN+vO9zvjkz9wxB/K+8/AJBIe8UV6FQVEQWi0ErKaVIJJGWgVguIxGqqASNlisQUlZVg1ZThJCqto6GUF2PmAZNY9PfU61OX96sbxEbWjXGNlN7h9ScS6Y7u7otVpvFbuzp7RP2Wx3OgcEhc7afdg2PMChTjMo9OsYiXNS4x8uhwa5E/JqYnOK+ybQTMGZmVpfBOR9gyN89z6UuyABjA4t4nKUggCIjnnU5BKWueDCuWiFcW8e4EYYw4MJo2IRwaxtjJAqhM4ZvRg1OG9zZxa17EqiVKt3n0HQAISOLH2oJQndEQooSk8cEcXIK5qJEnFvQMzkD5Yal3EPPhVDrxWUEz3t1zX8b1n2T3SGvwMYLdiR//pdbDZVV8u57hRL3qdxqPjymWYZ9Sj9bwv4XBclOxF9/Le5bVzTtS3K3n4q9i0Ifn/j0C9ySU9rj3wz5AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Video">
+		<g id="text">
+			<g id="Group 4">
+				<g id="icon apple">
+					<use id="Layer 25" href="#img1" x="0" y="0" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
