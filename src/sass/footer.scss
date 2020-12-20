@@ -252,7 +252,7 @@
     
     .footer_end_line {
         @include end_line();
-        width: 768px;
+        
     }
     
 }
@@ -320,6 +320,6 @@
     
     .footer_end_line {
         @include end_line();
-        width: 1200px;
+        
     }
 }
