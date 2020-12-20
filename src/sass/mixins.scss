@@ -11,6 +11,24 @@
 }
 
 
+@mixin title_line() {
+        background-color: $white_text;
+        width: 60px;
+        height: 1pt;
+        content: '';
+        display: block;
+        margin-top: 15px;
+
+}
+
+@mixin end_line() {
+    background-color: #6f6f6f;
+    height: 0.3px;
+    content: '';
+    display: block;
+}
+
+
 
 @mixin btn_header ($bcg_color, $color, $padding: 12px 39px 12px 22px) {
     background-color: $bcg_color;
@@ -29,5 +47,4 @@
     border: none;
     margin-bottom: 5px;
 }
-
 
