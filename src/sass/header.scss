@@ -132,6 +132,7 @@ li {
     text-transform: uppercase;
     border-bottom: 3px solid transparent;
     padding-bottom: 5px;
+    transition: 0.7s ease;
     &:hover {
         color: $black_text;
         border-bottom: 3px solid $black_text;
