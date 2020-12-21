@@ -12,9 +12,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    @media screen and (min-width: 768px) {
-        margin-top: 450px;
-    }
 
     @media screen and (min-width: 1200px) {
         margin-top: 0;
@@ -93,6 +90,7 @@
     font-weight: 300;
     font-size: 16px;
     outline: none;
+    border-radius: 5px;
 }
 
 .input:nth-child(2) {
@@ -111,7 +109,7 @@
     font-weight: 300;
     font-size: 16px;
     outline: none;
-
+    border-radius: 5px;
     @media screen and (min-width: 768px) {
         width: 570px;
     }
@@ -130,7 +128,7 @@
     display: block;
     outline: none;
     cursor: pointer;
-
+    border-radius: 5px;
     @media screen and (min-width: 768px) {
         margin: 45px auto 75px auto;
     }
