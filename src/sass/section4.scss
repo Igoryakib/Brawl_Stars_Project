@@ -24,7 +24,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: 'Texturina', serif;
-  font-size: 18pt;
+  font-size: 18px;
   font-weight: bold;
   width: 305px;
   margin: 15px auto 51px;
@@ -58,7 +58,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    font-size: 28pt;
+    font-size: 28px;
   }
 }
 
@@ -256,7 +256,7 @@ a {
   background-repeat: no-repeat;
   text-overflow: ellipsis;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 
   @media screen and (min-width: 768px) {
