@@ -83,10 +83,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: anim_icon;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 
-  &:hover {
+  // &:hover {
+  //   background-color: $black_text;
+  //   background-repeat: no-repeat;
+  // }
+}
+
+@keyframes anim_icon {
+  0% {
+    background-color: $whiteBlue_text;
+  }
+
+  50% {
     background-color: $black_text;
-    background-repeat: no-repeat;
+  }
+
+  100% {
+    background-color: $whiteBlue_text;
   }
 }
 
@@ -94,11 +112,35 @@
   transition: 0.5s linear;
   width: 30px;
   height: auto;
+  animation-name: anim_icon1;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
 
-.section2_wrapper_icons_wrapper_apple:hover svg {
-  fill: $whiteBlue_text;
+@keyframes anim_icon1 {
+  0% {
+  }
+
+  50% {
+    fill: $whiteBlue_text;
+  }
+
+  100% {
+  }
 }
+
+.section2_wrapper_icons_wrapper_apple:hover svg{
+  animation-play-state: paused;
+}
+
+.section2_wrapper_icons_wrapper_apple:hover{
+  animation-play-state: paused;
+}
+
+// .section2_wrapper_icons_wrapper_apple:hover svg {
+//   fill: $whiteBlue_text;
+// }
 
 .section2_wrapper_icons_apple {
   padding: 18px 20px;
@@ -112,21 +154,37 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  animation-name: anim_icon;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 
-  &:hover {
-    background-color: $black_text;
-  }
+  // &:hover {
+  //   background-color: $black_text;
+  // }
+}
+
+.section2_wrapper_icons_wrapper_robot:hover svg{
+  animation-play-state: paused;
+}
+
+.section2_wrapper_icons_wrapper_robot:hover{
+  animation-play-state: paused;
 }
 
 .section2_wrapper_icons_wrapper_robot svg {
   transition: 0.5s linear;
   width: 38px;
   height: auto;
+  animation-name: anim_icon1;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
 
-.section2_wrapper_icons_wrapper_robot:hover svg {
-  fill: $whiteBlue_text;
-}
+// .section2_wrapper_icons_wrapper_robot:hover svg {
+//   fill: $whiteBlue_text;
+// }
 
 .section2_wrapper_icons_robot {
   padding: 17px 20px;
